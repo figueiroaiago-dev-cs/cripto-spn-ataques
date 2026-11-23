@@ -1,0 +1,75 @@
+{
+  "chave": {
+    "reais": [
+      {
+        "bits": 12,
+        "testadas": 3485,
+        "segundos": 0.06,
+        "chaves_por_s": 58854,
+        "achou": true
+      },
+      {
+        "bits": 16,
+        "testadas": 37739,
+        "segundos": 0.68,
+        "chaves_por_s": 55467,
+        "achou": true
+      },
+      {
+        "bits": 20,
+        "testadas": 833949,
+        "segundos": 14.37,
+        "chaves_por_s": 58053,
+        "achou": true
+      }
+    ],
+    "taxa_media": 57458,
+    "projecao": [
+      {
+        "bits": 16,
+        "segundos_medio": 0.5702948240453897,
+        "legivel": "0.6 s"
+      },
+      {
+        "bits": 24,
+        "segundos_medio": 145.99547495561976,
+        "legivel": "2.4 min"
+      },
+      {
+        "bits": 32,
+        "segundos_medio": 37374.84158863866,
+        "legivel": "10.4 h"
+      },
+      {
+        "bits": 40,
+        "segundos_medio": 9567959.446691496,
+        "legivel": "110.7 dias"
+      },
+      {
+        "bits": 56,
+        "segundos_medio": 627045790298.3739,
+        "legivel": "19,906.2 anos"
+      },
+      {
+        "bits": 64,
+        "segundos_medio": 160523722316383.72,
+        "legivel": "5,095,991.2 anos"
+      },
+      {
+        "bits": 128,
+        "segundos_medio": 2.961140023329549e+33,
+        "legivel": "94,004,445,185,065,044,515,225,600.0 anos"
+      }
+    ]
+  },
+  "dicionario": {
+    "senha_alvo": "recife2026",
+    "tentativas": 43,
+    "segundos": 1.92,
+    "senhas_por_s": 22.4,
+    "achou": true,
+    "texto_recuperado": "Segue o código de acesso: 4821. Não compartilhe.",
+    "rockyou_inteiro": "7.4 dias",
+    "rockyou_sem_kdf": "32.2 s"
+  }
+}

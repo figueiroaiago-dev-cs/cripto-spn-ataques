@@ -1,0 +1,15 @@
+# ambiente e cache do Python
+.venv/
+__pycache__/
+*.pyc
+
+# dados gerados (recriados por: python eventos.py && python ia.py)
+dados/
+
+# segredos do Streamlit, se um dia existirem
+.streamlit/secrets.toml
+
+# sistema
+Thumbs.db
+desktop.ini
+.DS_Store

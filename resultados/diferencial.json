@@ -1,0 +1,96 @@
+{
+  "avalanche_rodadas": [
+    {
+      "rodadas": 1,
+      "texto_pct": 6.23,
+      "chave_pct": 50.09
+    },
+    {
+      "rodadas": 2,
+      "texto_pct": 25.09,
+      "chave_pct": 49.63
+    },
+    {
+      "rodadas": 3,
+      "texto_pct": 45.21,
+      "chave_pct": 50.27
+    },
+    {
+      "rodadas": 4,
+      "texto_pct": 49.47,
+      "chave_pct": 50.27
+    },
+    {
+      "rodadas": 5,
+      "texto_pct": 50.08,
+      "chave_pct": 49.94
+    },
+    {
+      "rodadas": 6,
+      "texto_pct": 49.82,
+      "chave_pct": 50.1
+    },
+    {
+      "rodadas": 7,
+      "texto_pct": 49.98,
+      "chave_pct": 49.84
+    },
+    {
+      "rodadas": 8,
+      "texto_pct": 49.82,
+      "chave_pct": 50.08
+    },
+    {
+      "rodadas": 9,
+      "texto_pct": 49.99,
+      "chave_pct": 49.98
+    },
+    {
+      "rodadas": 10,
+      "texto_pct": 49.91,
+      "chave_pct": 49.53
+    }
+  ],
+  "sac": {
+    "media": 0.5,
+    "min": 0.347,
+    "max": 0.647,
+    "desvio_medio_de_0_5": 0.0321
+  },
+  "ddt": {
+    "max_sbox_propria": 12,
+    "max_sbox_aes": 4,
+    "prob_melhor_diferencial_propria": "12/256",
+    "prob_melhor_diferencial_aes": "4/256",
+    "histograma_propria": {
+      "2": 19811,
+      "4": 4936,
+      "6": 851,
+      "8": 82,
+      "10": 14,
+      "12": 1
+    }
+  },
+  "mensagem_1_char": {
+    "ECB": {
+      "bytes_diferentes": 7,
+      "total_bytes": 56,
+      "bits_diferentes_pct": 5.8
+    },
+    "CBC_mesmo_IV": {
+      "bytes_diferentes": 40,
+      "total_bytes": 64,
+      "bits_diferentes_pct": 32.2
+    },
+    "CBC_IV_novo": {
+      "bytes_diferentes": 64,
+      "total_bytes": 64,
+      "bits_diferentes_pct": 49.8
+    },
+    "AES_GCM_mesmo_nonce": {
+      "bytes_diferentes": 17,
+      "total_bytes": 65,
+      "bits_diferentes_pct": 13.3
+    }
+  }
+}

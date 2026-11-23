@@ -1,0 +1,172 @@
+{
+  "orcamento_alertas": {
+    "ip_x_hora": 0.002,
+    "usuario_x_hora": 0.005
+  },
+  "ip_x_hora": {
+    "janelas": 8160,
+    "fora_do_escopo": 4,
+    "average_precision_ia": 1.0,
+    "varredura_orcamento": [
+      {
+        "orcamento": 0.002,
+        "alertas": 16,
+        "vp": 9,
+        "fp": 7,
+        "recall": 1.0,
+        "precisao": 0.562
+      },
+      {
+        "orcamento": 0.005,
+        "alertas": 41,
+        "vp": 9,
+        "fp": 32,
+        "recall": 1.0,
+        "precisao": 0.22
+      },
+      {
+        "orcamento": 0.01,
+        "alertas": 82,
+        "vp": 9,
+        "fp": 73,
+        "recall": 1.0,
+        "precisao": 0.11
+      },
+      {
+        "orcamento": 0.02,
+        "alertas": 163,
+        "vp": 9,
+        "fp": 154,
+        "recall": 1.0,
+        "precisao": 0.055
+      }
+    ],
+    "alerta_regra": {
+      "precisao": 1.0,
+      "recall": 0.556,
+      "f1": 0.714,
+      "vp": 5,
+      "fp": 0,
+      "fn": 4,
+      "vn": 8147
+    },
+    "alerta_ia": {
+      "precisao": 0.529,
+      "recall": 1.0,
+      "f1": 0.692,
+      "vp": 9,
+      "fp": 8,
+      "fn": 0,
+      "vn": 8139
+    },
+    "alerta": {
+      "precisao": 0.529,
+      "recall": 1.0,
+      "f1": 0.692,
+      "vp": 9,
+      "fp": 8,
+      "fn": 0,
+      "vn": 8139
+    },
+    "por_tipo": {
+      "acesso_atipico": {
+        "janelas": 4,
+        "alerta_regra": 0,
+        "alerta_ia": 4,
+        "alerta": 4
+      },
+      "forca_bruta": {
+        "janelas": 5,
+        "alerta_regra": 5,
+        "alerta_ia": 5,
+        "alerta": 5
+      }
+    }
+  },
+  "usuario_x_hora": {
+    "janelas": 5906,
+    "fora_do_escopo": 0,
+    "average_precision_ia": 0.991,
+    "varredura_orcamento": [
+      {
+        "orcamento": 0.002,
+        "alertas": 12,
+        "vp": 12,
+        "fp": 0,
+        "recall": 0.444,
+        "precisao": 1.0
+      },
+      {
+        "orcamento": 0.005,
+        "alertas": 30,
+        "vp": 26,
+        "fp": 4,
+        "recall": 0.963,
+        "precisao": 0.867
+      },
+      {
+        "orcamento": 0.01,
+        "alertas": 59,
+        "vp": 27,
+        "fp": 32,
+        "recall": 1.0,
+        "precisao": 0.458
+      },
+      {
+        "orcamento": 0.02,
+        "alertas": 118,
+        "vp": 27,
+        "fp": 91,
+        "recall": 1.0,
+        "precisao": 0.229
+      }
+    ],
+    "alerta_regra": {
+      "precisao": 1.0,
+      "recall": 0.259,
+      "f1": 0.412,
+      "vp": 7,
+      "fp": 0,
+      "fn": 20,
+      "vn": 5879
+    },
+    "alerta_ia": {
+      "precisao": 0.867,
+      "recall": 0.963,
+      "f1": 0.912,
+      "vp": 26,
+      "fp": 4,
+      "fn": 1,
+      "vn": 5875
+    },
+    "alerta": {
+      "precisao": 0.871,
+      "recall": 1.0,
+      "f1": 0.931,
+      "vp": 27,
+      "fp": 4,
+      "fn": 0,
+      "vn": 5875
+    },
+    "por_tipo": {
+      "acesso_atipico": {
+        "janelas": 4,
+        "alerta_regra": 4,
+        "alerta_ia": 4,
+        "alerta": 4
+      },
+      "alteracao_arquivo": {
+        "janelas": 3,
+        "alerta_regra": 3,
+        "alerta_ia": 2,
+        "alerta": 3
+      },
+      "forca_bruta": {
+        "janelas": 20,
+        "alerta_regra": 0,
+        "alerta_ia": 20,
+        "alerta": 20
+      }
+    }
+  }
+}

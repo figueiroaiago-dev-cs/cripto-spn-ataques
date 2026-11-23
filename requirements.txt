@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scipy
+pillow
+cryptography
+duckdb
+pyarrow
+scikit-learn
+streamlit>=1.50
+plotly

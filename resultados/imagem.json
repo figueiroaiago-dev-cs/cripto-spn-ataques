@@ -1,0 +1,22 @@
+{
+  "ECB": {
+    "bytes": 192000,
+    "entropia_bits_por_byte": 4.9769,
+    "qui2": 2284739.3,
+    "p_valor": 0.0,
+    "uniforme_5pct": false,
+    "correlacao_vizinhos": 0.0807,
+    "blocos_8B_repetidos_pct": 99.85,
+    "freq": null
+  },
+  "CBC": {
+    "bytes": 192000,
+    "entropia_bits_por_byte": 7.9992,
+    "qui2": 221.9,
+    "p_valor": 0.9338,
+    "uniforme_5pct": true,
+    "correlacao_vizinhos": -0.0032,
+    "blocos_8B_repetidos_pct": 0.0,
+    "freq": null
+  }
+}
